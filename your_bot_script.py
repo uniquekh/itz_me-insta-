@@ -62,8 +62,7 @@ async def upload_video(video_path, caption, username, password, otp=None):
         else:
             client.login(username, password)
         
-        caption1 = f'''♡        🗨️ㅤ     ⎙ㅤ     ⌲  \n{caption} \n .  \n        .     \n      .   \n         . \n
-             .        \n         .     \n       .     \n       #bodyart #viralreel #followforfollowback #gymmotivation #reels #instagram #trending #explore 
+        caption1 = f'''♡        🗨️ㅤ     ⎙ㅤ     ⌲  \n \n .  \n        .     \n #arzedil909 #broken #ishq #love #alone #viralreel #followforfollowback #gymmotivation #reels #instagram #trending #explore 
         #trendingreels #viral #follow #reelfeelkaro #girls #hotgirls #night #umm #tamatar #trend #reels only '''
         
         client.video_upload(video_path, caption1)
