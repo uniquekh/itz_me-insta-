@@ -1,0 +1,3 @@
+instaloader
+instagrapi
+pyrogram==1.2.9
